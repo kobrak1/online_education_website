@@ -3,7 +3,7 @@
 [Live Preview](https://online-education-website-brown.vercel.app/)
 # About The Project
 This responsive static website was created by Ahmet Burak Karhan. It has been designed as an online education platform with a simple navbar, sections and a footer.
-#Built With
+# Built With
 -HTML5
 -CSS3
 -JavaScript
