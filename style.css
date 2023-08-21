@@ -513,7 +513,8 @@ header .fa-times {
         flex-flow: column;
     }
     .contact .row img {
-        display: none;
+        height: 50vh;
+        width: 90vw;
     }
     .contact .row .form-container {
         width: 90%;
