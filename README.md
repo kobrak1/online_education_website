@@ -4,8 +4,8 @@
 # About The Project
 This responsive static website was created by Ahmet Burak Karhan. It has been designed as an online education platform with a simple navbar, sections and a footer.
 # Built With
-*HTML5
-*CSS3
-*JavaScript
-*JQuery
+-HTML5\
+-CSS3\
+-JavaScript\
+-JQuery
 
