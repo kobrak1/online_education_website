@@ -415,6 +415,7 @@ header .fa-times {
 .contact .row img {
     width: 50vw;
     height: 70vh;
+    filter: blur(3px);
 }
 .contact .row .form-container {
     height: 50%;
@@ -431,6 +432,31 @@ header .fa-times {
     color: var(--pink);
     font-size: 1.7rem;
     transition: .2s linear;
+}
+
+.contact .row .form-container textarea {
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input:focus, textarea:focus {
+    border: .3rem solid var(--red);
+}
+
+.contact .row .form-container input[type="submit"] {
+    width: 17rem;
+    background: var(--red);
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+.contact .row .form-container input[type="submit"]:hover {
+    background: none;
+    color: var(--red);
+    border: .2rem solid var(--red);
 }
 
 /* media queries */
@@ -481,5 +507,16 @@ header .fa-times {
     }
     .course .box-container {
         width: 100%;
+    }
+
+    .contact .row {
+        flex-flow: column;
+    }
+    .contact .row img {
+        display: none;
+    }
+    .contact .row .form-container {
+        width: 90%;
+        padding: 0;
     }
 }
