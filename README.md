@@ -6,6 +6,6 @@ This responsive static website was created by Ahmet Burak Karhan. It has been de
 # Built With
 -HTML5\
 -CSS3\
--JavaScript\
+-JavaScript(ECMAScript 6)\
 -JQuery
 
