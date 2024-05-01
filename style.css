@@ -474,7 +474,6 @@ header .fa-times {
     border: .2rem solid var(--violet);
     font-size: 2rem;
     margin: 0 .1rem;
-    padding: 0 .5rem;
     transition: .2s linear;
 }
 

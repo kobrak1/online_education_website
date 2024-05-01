@@ -1,0 +1,11 @@
+{
+  "name": "online_education_website",
+  "version": "1.0.0",
+  "description": "online education website - static site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmet burak karhan",
+  "license": "MIT"
+}
